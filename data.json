@@ -1,0 +1,114 @@
+{
+  "ic_data": [
+    {
+      "ic_code": "H9TQ53AECM",
+      "brand": "SK Hynix",
+      "capacity": "64GB",
+      "type": "eMMC 5.1",
+      "used_in": [
+        "Samsung A30",
+        "Samsung M20",
+        "Vivo Y20"
+      ],
+      "network": "4G",
+      "year": 2018,
+      "image": "database/images/ic/h9tq53aecm.svg"
+    },
+    {
+      "ic_code": "KMQ820013M-B419",
+      "brand": "Samsung (SEC)",
+      "capacity": "64GB",
+      "type": "UFS 2.1 (MCP)",
+      "used_in": [
+        "Galaxy A50",
+        "Galaxy M30"
+      ],
+      "network": "4G",
+      "year": 2019,
+      "image": "database/images/ic/kmq820013m-b419.svg"
+    },
+    {
+      "ic_code": "MT29F64G08CBABA",
+      "brand": "Micron",
+      "capacity": "64GB",
+      "type": "eMMC 5.1",
+      "used_in": [
+        "Xiaomi Redmi Note 6"
+      ],
+      "network": "4G",
+      "year": 2018,
+      "image": "database/images/ic/mt29f64g08.svg"
+    },
+    {
+      "ic_code": "KIOXIA-THGBMHG8C2LBAIL",
+      "brand": "Kioxia (Toshiba)",
+      "capacity": "128GB",
+      "type": "UFS 2.1",
+      "used_in": [
+        "Realme 6",
+        "Oppo A52"
+      ],
+      "network": "4G",
+      "year": 2020,
+      "image": "database/images/ic/kioxia_128.svg"
+    },
+    {
+      "ic_code": "SAMSUNG-THGAMRG6C8LBAIL",
+      "brand": "Samsung",
+      "capacity": "256GB",
+      "type": "UFS 3.0",
+      "used_in": [
+        "Flagship devices (example)"
+      ],
+      "network": "5G",
+      "year": 2021,
+      "image": "database/images/ic/samsung_256.svg"
+    }
+  ],
+  "phone_parts": [
+    {
+      "model": "SAMSUNG A30",
+      "parts": [
+        {
+          "part_name": "Main Board IC (Storage)",
+          "market_name": "H9TQ53AECM",
+          "description": "SK Hynix 64GB eMMC 5.1 (storage IC)",
+          "image": "database/images/parts/emmc.svg",
+          "buy_link_1": "https://www.aliexpress.com/wholesale?SearchText=H9TQ53",
+          "buy_link_2": "https://www.alibaba.com/trade/search?SearchText=H9TQ53"
+        },
+        {
+          "part_name": "Display Assembly",
+          "market_name": "A30 AMOLED Display",
+          "description": "6.4\" display assembly for Samsung A30",
+          "image": "database/images/parts/display.svg",
+          "buy_link_1": "https://www.aliexpress.com/wholesale?SearchText=Samsung+A30+display",
+          "buy_link_2": "https://www.alibaba.com/trade/search?SearchText=Samsung+A30+display"
+        }
+      ],
+      "phone_image": "database/images/phones/samsung_a30.svg"
+    },
+    {
+      "model": "VIVO Y20",
+      "parts": [
+        {
+          "part_name": "Main Board IC (Storage)",
+          "market_name": "KIOXIA 128GB UFS",
+          "description": "Kioxia 128GB UFS storage IC used in some midrange phones",
+          "image": "database/images/parts/ufs.svg",
+          "buy_link_1": "https://www.aliexpress.com/wholesale?SearchText=KIOXIA+UFS",
+          "buy_link_2": "https://www.alibaba.com/trade/search?SearchText=KIOXIA+UFS"
+        },
+        {
+          "part_name": "Battery",
+          "market_name": "Vivo Y20 Battery 5000mAh",
+          "description": "Replacement battery for Vivo Y20",
+          "image": "database/images/parts/battery.svg",
+          "buy_link_1": "https://www.aliexpress.com/wholesale?SearchText=Vivo+Y20+battery",
+          "buy_link_2": "https://www.alibaba.com/trade/search?SearchText=Vivo+Y20+battery"
+        }
+      ],
+      "phone_image": "database/images/phones/vivo_y20.svg"
+    }
+  ]
+}

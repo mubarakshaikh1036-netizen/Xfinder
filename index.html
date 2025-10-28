@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>XFinder — Smart Board & IC Detector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>XFinder</h1>
+      <p class="tagline">Smart Board & IC Detector — find IC, board capacity, and assembly parts</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <h2>IC Detector</h2>
+      <p>Enter an IC code exactly (e.g. <code>H9TQ53AECM</code>)</p>
+      <div class="row">
+        <input id="icInput" placeholder="Enter IC code or phone model..." />
+        <button id="searchBtn">Search</button>
+      </div>
+      <div id="icResult" class="result"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Phone Assembly Parts Finder</h2>
+      <p>Enter phone model name (e.g. <code>Samsung A30</code>)</p>
+      <div class="row">
+        <input id="phoneInput" placeholder="Enter phone model..." />
+        <button id="phoneBtn">Show Parts</button>
+      </div>
+      <div id="phoneResult" class="result"></div>
+    </section>
+
+    <section class="panel info">
+      <h3>Notes</h3>
+      <ul>
+        <li>This prototype uses local JSON as database. Replace images in <code>/database/images/</code> with real factory photos for production.</li>
+        <li>To publish: upload the contents of this folder to a GitHub repository and enable GitHub Pages (Main branch).</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© XFinder — Real data demo. Replace placeholder images with real photos before public release.</p>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
